@@ -16,5 +16,4 @@ await page.locator("[class='ui-autocomplete-dropdown ui-button ui-widget ui-stat
 //await page.locator("[class='[id='j_idt87:auto-complete_input']']").fill('play')
 await page.locator("[class='ui-autocomplete-item ui-autocomplete-list-item ui-corner-all']").nth(2).click()
 //test
-  //pr
 })
