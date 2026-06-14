@@ -3,7 +3,7 @@ on:
   push:
     branches: [ main, master ]
   pull_request:
-    branches: [ main, master, ]
+    branches: [ main, master, jackgihub007-patch-1pr]
   schedule:
     - cron: '0 * * * *'
 jobs:
