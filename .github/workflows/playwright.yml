@@ -4,7 +4,8 @@ name: Playwright Tests
 #     branches: [ main, master ]
 #   pull_request:
 #     branches: [ main, master ]
-  on:
+
+on:
   schedule:
     - cron: '*/5 * * * *' # Explicitly every 5 minutes
 jobs
