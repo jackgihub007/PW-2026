@@ -1,11 +1,11 @@
 name: Playwright Tests
 on:
-  push:
-    branches: [ main, master, jackgihub007-patch-1pr ]
-  pull_request:
-    branches: [ main, master, jackgihub007-patch-1pr]
+  # push:
+  #   branches: [ main, master, jackgihub007-patch-1pr ]
+  # pull_request:
+  #   branches: [ main, master, jackgihub007-patch-1pr]
   schedule:
-    - cron: '0 * * * *'
+    - cron: '* * * * *'
 jobs:
   test:
     timeout-minutes: 60
